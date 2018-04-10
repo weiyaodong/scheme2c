@@ -1,0 +1,25 @@
+{
+  "name": "scheme2C",
+  "version": "0.0.1",
+  "author": "zjuwyd",
+  "description": "A compiler from a subset of scheme to C using CPS",
+  "keywords": [
+    "node.js",
+    "javascript",
+    "scheme",
+    "compiler",
+    "C"
+  ],
+  "main" : "index.js",
+  "license": "WTFPL",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security"
+  }
+}
