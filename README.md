@@ -4,7 +4,13 @@ A scheme to C compiler written in node.js
 
 #### How to use ?
 
-You need `node` on your computer. Enter the directory of the project and use the following command to compile your scheme file to C or just compile it to continuation-passing-style.
+You need `node` on your computer. Enter the directory of the project and install the dependencies :
+
+```bash
+npm install
+```
+
+use the following command to compile your scheme file to C or just compile it to continuation-passing-style.
 
 - Compile scheme to C 
 
